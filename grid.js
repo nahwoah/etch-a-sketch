@@ -11,9 +11,9 @@ container.style.margin = 0 + "px";
 //container.style.alignContent = "strech";
 
 let windowHeight = Math.floor(window.innerHeight/18);
-let linePerRow = Math.floor(document.documentElement.offsetWidth/18);
+let rowWidth = Math.floor(document.documentElement.offsetWidth/18);
 
-console.log(windowHeight, window.innerHeight, linePerRow, document.documentElement.offsetWidth)
+console.log(windowHeight, window.innerHeight, rowWidth, document.documentElement.offsetWidth)
 
 // grid.setAttribute("style", "width:16px; height:16px;");
 //grid.style.width = 16 + "px"
@@ -25,7 +25,7 @@ console.log(windowHeight, window.innerHeight, linePerRow, document.documentEleme
 //grid.style.height = "50px";
 //grid.style.border = "1px solid #00ff88ff";
 
-for (let i = 0; i < linePerRow; i++) {
+for (let i = 0; i < rowWidth; i++) {
     for (let j = 0; j < windowHeight; j++) {
         const grid = document.createElement("div");
         container.appendChild(grid);
