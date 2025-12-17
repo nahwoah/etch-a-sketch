@@ -38,7 +38,6 @@ for (let i = 0; i < rowWidth; i++) {
         grid.style.width = 16 + "px";
         grid.style.height = 16 + "px";
         grid.style.margin = 0 + "px";
-        //grid.setAttribute("style", "width:16px; height:16px;");
         grid.style.border = "1px solid #00ff88ff";
 
         grid.addEventListener("mouseover", (event) => {grid.style.backgroundColor = "red"
@@ -78,12 +77,7 @@ reset.addEventListener("click", () => {
     // }
 })
 
-// function createGrid(){
-    
-    
-// }
 
-//createGrid();
 
 
 
