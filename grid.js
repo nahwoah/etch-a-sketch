@@ -17,7 +17,7 @@ container.style.justifyContent = "center";
 container.style.flexWrap = "wrap";
 
 
-let windowHeight = Math.floor((window.innerHeight-resetButtonSize-resetButtonMargin)/18);
+let windowHeight = Math.floor((window.innerHeight-resetButtonSize-resetButtonMargin)/18); // Even though we use 16x16 grid squares, we divide by 18 since that is how much space one square actually occupies
 let rowWidth = Math.floor(document.documentElement.offsetWidth/18);
 
 for (let i = 0; i < rowWidth; i++) {
